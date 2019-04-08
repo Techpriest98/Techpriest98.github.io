@@ -1,0 +1,53 @@
+@font-face {
+	font-family: EveSansRegular;
+	src: url("fonts/evesansneue-regular.otf") format("opentype"),
+		 url("fonts/evesansneue-bold.otf") format("opentype");
+}
+
+@font-face {
+	font-family: EveSansAlpha;
+	src: url("eve.ttf") format("truetype");
+}
+
+body
+{
+	background-color: #0F0F0F;
+	color: #A8A8A8;
+	font-family: EveSansRegular;
+	padding: 2px 2px 2px 2px;
+}
+
+.viewport
+{
+	height: 100%;
+	border: 1px solid #505050;
+	background-color: #030303;
+}
+
+.main-panel
+{
+	margin-top:  10px;
+}
+
+.panel-button-container
+{
+	padding: 1px 1px 1px 1px !important;
+}
+
+.panel-button
+{
+	background-color: #1D1D1D;
+	color: #ffffff;
+	border: 1px solid #505050;
+	padding: 5px 10px 5px 10px;
+}
+
+.panel-button-active
+{
+	background-color: #404040;
+}
+
+.header-orange
+{
+	color: #F2C300;
+}
