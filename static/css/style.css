@@ -51,3 +51,22 @@ body
 {
 	color: #F2C300;
 }
+
+.bar
+{
+	background: #1D1D1D;
+	display: block;
+	height: 5px;
+}
+
+.panel-light
+{
+	background-color: #151515;
+	border-top: 1px solid #505050;
+
+}
+
+.skill-description
+{
+	margin-top: 10px;
+}
